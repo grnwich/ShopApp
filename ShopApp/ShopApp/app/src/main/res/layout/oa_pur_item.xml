@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/oa_item_bg_color"
+    android:layout_marginTop="@dimen/margin_10"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oa_item_title_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5">
+
+        <TextView
+            android:id="@+id/tv_oa_pur_djbh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="单据编号：20161220"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_pur_djrq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="单据日期：20161220"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_pur_djzt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="单据状态：未入库"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        android:background="@color/oa_item_title_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5">
+
+        <TextView
+            android:id="@+id/tv_oa_pur_ssqy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="所属企业：20161220"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_pur_ckck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="出库仓库：一号仓库"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textColor="@android:color/black"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="货物编号"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="货物名称"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="型号"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="品牌"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="规格"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="单价"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="出库数量"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="货物编号"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="货物名称"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="型号"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="品牌"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="规格"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="单价"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="出库数量"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

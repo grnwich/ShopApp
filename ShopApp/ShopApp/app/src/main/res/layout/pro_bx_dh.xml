@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/margin_10"
+    android:id="@+id/layout_pro_bx_lx"
+    >
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="@dimen/margin_10"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@drawable/pro_bx_lx_bg"
+        android:divider="@android:color/transparent"
+        android:scrollbars="none"
+        android:id="@+id/lv_pro_dh">
+    </ListView>
+    </LinearLayout>
+
+

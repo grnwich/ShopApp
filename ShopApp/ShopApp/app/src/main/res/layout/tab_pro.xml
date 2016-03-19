@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+              android:background="#FBFEFC"
+    tools:context="com.cos.property.MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="#FBFEFC"
+        android:textColor="@color/color_title_font"
+        android:text="@string/property_management" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FBFEFC"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pro_title_img"
+                android:scaleType="centerCrop"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/llyt_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout style="@style/PMLayout"
+                                  android:orientation="vertical">
+                        <com.app.shop.shopapp.view.ClickImageView
+                            style="@style/PMImageView"
+                            android:id="@+id/iv_pm_repair"
+                            android:src="@mipmap/pro_icon_bx"
+                            />
+                        <TextView
+                            style="@style/PMTextView"
+                            android:text="报修"/>
+                    </LinearLayout>
+                    <LinearLayout style="@style/PMLayout">
+                        <com.app.shop.shopapp.view.ClickImageView
+                            style="@style/PMImageView"
+                            android:id="@+id/iv_pm_ca"
+                            android:src="@mipmap/pro_icon_tsjy"
+                            />
+                        <TextView
+                            style="@style/PMTextView"
+                            android:text="投诉建议"/>
+                    </LinearLayout>
+                    <LinearLayout style="@style/PMLayout">
+                        <com.app.shop.shopapp.view.ClickImageView
+                            style="@style/PMImageView"
+                            android:id="@+id/iv_pm_pay"
+                            android:src="@mipmap/pro_icon_jf"
+                            />
+                        <TextView
+                            style="@style/PMTextView"
+                            android:text="缴费"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llyt_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout style="@style/PMLayout">
+                        <com.app.shop.shopapp.view.ClickImageView
+                            style="@style/PMImageView"
+                            android:id="@+id/iv_pm_report"
+                            android:src="@mipmap/pro_icon_xqgg"
+                            />
+                        <TextView
+                            style="@style/PMTextView"
+                            android:text="小区公告"/>
+                    </LinearLayout>
+                    <LinearLayout style="@style/PMLayout">
+                        <com.app.shop.shopapp.view.ClickImageView
+                            style="@style/PMImageView"
+                            android:id="@+id/iv_pm_contact"
+                            android:src="@mipmap/pro_icon_llhd"
+                            />
+                        <TextView
+                            style="@style/PMTextView"
+                            android:text="邻里互动"/>
+                    </LinearLayout>
+                    <LinearLayout style="@style/PMLayout">
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
