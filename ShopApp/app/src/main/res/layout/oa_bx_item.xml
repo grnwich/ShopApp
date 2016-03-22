@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/oa_item_bg_color"
+    android:layout_marginTop="@dimen/margin_10"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oa_item_title_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5">
+
+        <TextView
+            android:id="@+id/tv_oa_bx_fylx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="费用：水费"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_bx_bxrq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="报销日期：20161220"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_bx_bxr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="报销人：XXX"
+            android:textColor="@android:color/black"
+            android:gravity="right"
+            android:textSize="@dimen/font_size_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        android:background="@color/oa_item_title_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5">
+
+        <TextView
+            android:id="@+id/tv_oa_bx_bxdw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="报销单位：XXXXXXX"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tv_oa_bx_bxje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="报销金额：XXXXXXX"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textColor="@android:color/black"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="单据编号"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="费用名称"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="日期"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="经办人"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="单位"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="总计"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:background="@color/oa_item_table_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="备注"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/oa_bx_type_djbh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="AS52111111"
+            android:singleLine="true"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oa_bx_type_fymc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="货物名称"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="20160216"
+            android:id="@+id/oa_bx_type_rq"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="XXXXXX"
+            android:id="@+id/oa_bx_type_jbr"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:id="@+id/oa_bx_type_dw"
+            android:singleLine="true"
+            android:lines="1"
+            android:paddingTop="@dimen/margin_5"
+            android:text="XXXXX"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="XXXXX"
+            android:id="@+id/oa_bx_type_zj"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_marginLeft="1dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:id="@+id/oa_bx_type_bz"
+            android:singleLine="true"
+            android:lines="1"
+            android:text="XXXXXXXXX"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_10"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

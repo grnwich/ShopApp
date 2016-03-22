@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<include
+    layout="@layout/top_layout"
+
+    />
+
+    <TextView
+        android:id="@+id/tv_account_safety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账号安全"
+        android:textSize="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/border_text"
+
+        />
+    <TextView
+        android:id="@+id/tv_message_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消息提醒"
+        android:textSize="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/border_text"
+
+        />
+    <TextView
+        android:id="@+id/tv_clean_ribbish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清理缓存"
+        android:textSize="25dp"
+        android:background="@drawable/border_text"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查更新"
+        android:textSize="25dp"
+        android:background="@drawable/border_text"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关于我们"
+        android:textSize="25dp"
+        android:background="@drawable/border_text"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_setting_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/setting_exit_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+
+        />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#F0F0F0"
+                android:orientation="vertical">
+    <include
+        android:id="@+id/layout_top"
+        layout="@layout/layout_toolbar"/>
+    <ScrollView
+        android:layout_below="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/llyt_pay_address_info"
+                layout="@layout/layout_fee_address"/>
+
+            <include         android:id="@+id/llyt_pay_info"
+                layout="@layout/layout_fee_info"/>
+
+            <include         android:id="@+id/llyt_parking_info"
+                             layout="@layout/layout_parking_fee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交订单"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:layout_margin="15dp"
+                android:visibility="gone"
+                android:id="@+id/tv_submit_order"
+                android:background="@drawable/btn_red_shape"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
