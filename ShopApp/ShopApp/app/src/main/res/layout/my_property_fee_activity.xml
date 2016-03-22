@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/top_layout"
+
+        />
+
+
+    <RelativeLayout
+
+        style="@style/relativelayout_style"
+        >
+
+
+        <TextView
+            style="@style/text_black_20dp"
+android:text="本月物业费"
+            android:layout_alignParentLeft="true"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥525.50"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/oa_item_table_color"
+
+            />
+        <TextView
+            style="@style/text_gray_20dp"
+            android:text="未交"
+            android:layout_alignParentRight="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+    style="@style/relativelayout_style"
+
+    >
+
+
+    <TextView
+        style="@style/text_black_20dp"
+        android:text="缴费日期"
+        android:layout_alignParentLeft="true"
+
+
+        />
+
+    <TextView
+        style="@style/text_black_20dp"
+        android:text="2015 10 01-2015 10 31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+
+        style="@style/relativelayout_style"
+        android:layout_marginTop="10dp"
+
+        >
+
+
+        <TextView
+            style="@style/text_black_20dp"
+            android:text="欠费"
+            android:layout_alignParentLeft="true"
+
+
+            />
+
+        <TextView
+            style="@style/text_gray_20dp"
+            android:text="已缴清"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        style="@style/relativelayout_style"
+
+        >
+
+
+        <TextView
+            style="@style/text_black_20dp"
+            android:text="滞纳金"
+            android:layout_alignParentLeft="true"
+
+
+            />
+
+        <TextView
+            style="@style/text_gray_20dp"
+            android:text="已缴清"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
