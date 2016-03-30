@@ -147,6 +147,9 @@
         <activity android:name=".activity.MyPropertyFeeActivity"
                   android:screenOrientation="portrait"
                   android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activity.PayFeeListActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".activity.MyAccountActivity"
                   android:screenOrientation="portrait"
                   android:theme="@style/AppTheme.NoActionBar"/>
